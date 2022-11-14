@@ -1,0 +1,25 @@
+/* fond de la navbar */
+.navbar {
+    background-color: #3b3b3f;
+    overflow: hidden; 
+  }
+  
+  /* Style des liens de la navbar */
+  .navbar a {
+    float: left; /* bouttons sur la gauche */
+    color: rgb(121, 240, 42); /* couleur du texte */
+    padding: 25px 16px; /* haut-bas / gauche droite */
+    font-size: 37px; /* taille du fond */
+  }
+  
+  /* Changer la couleur quand la souris passe dessus */
+  .navbar a:hover {
+    background-color: rgb(121, 240, 42); /* couleur bouttons quand souris passe dessus */
+    color: black; /* couleur du texte quand souris passe dessus*/ 
+  }
+  
+  /* Ajouter la couleur pour la section 'Accueil' */
+  .navbar a.active {
+    background-color: rgb(121, 240, 42); /* couleur de fond pour le 'accueil' */
+    color: white; /* couleur texte 'accueil'*/
+  }
