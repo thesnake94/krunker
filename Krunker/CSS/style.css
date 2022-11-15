@@ -1,6 +1,16 @@
+.navbar a:hover {
+    background-color: rgb(121, 240, 42); /* couleur bouttons quand souris passe dessus */
+    color: black; /* couleur du texte quand souris passe dessus*/ 
+  }
+
 header {
     background-image: url('/krunker/Krunker/IMG/cover-1591336739727.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-repeat: repeat;
+    background-position:center;
+    background-size: auto;
+    text-align: center;
   }
+
+body {
+    font-size: large;
+}
