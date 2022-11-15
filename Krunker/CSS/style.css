@@ -3,8 +3,8 @@
     color: black; /* couleur du texte quand souris passe dessus*/ 
   }
 
-header {
-    background-image: url('/krunker/Krunker/IMG/cover-1591336739727.png');
+  header {
+    background-image: url('https://zupimages.net/up/22/46/3gdh.png');
     background-repeat: repeat;
     background-position:center;
     background-size: auto;
@@ -13,4 +13,19 @@ header {
 
 body {
     font-size: large;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 56.5px black;
+  
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 175, 28);
+  border-radius: 10px;
+  outline: 1px solid rgb(255, 175, 28);
 }
