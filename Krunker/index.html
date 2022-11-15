@@ -8,9 +8,10 @@
         <link rel="stylesheet" href=
         "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-		<nav class="navbar navbar-expand-lg bg-secondary">
+		
+		<nav class="navbar navbar-expand-lg bg-secondary fixed-top" >
 			<div class="container-fluid">
-                <a class="navbar-brand text-body" href="https://krunker.io"><img src="https://zupimages.net/up/22/46/qcn6.png" alt="" width="120" height="40" /></a>
+                <a  id="section_further_up" class="navbar-brand text-body" href="https://krunker.io"><img src="https://zupimages.net/up/22/46/qcn6.png" alt="" width="120" height="40" /></a>
 				<button
 					class="navbar-toggler bg"
 					type="button"
@@ -20,21 +21,22 @@
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
+				
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
 						<li class="nav-item">
-							<a class="nav-link active text-body" aria-current="page" href="#">Accueil</a>
+							<a class="nav-link text-body" href="#section_further_up">Accueil</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link text-body" href="#section_further_down">Description</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-body" href="https://www.youtube.com/watch?v=bErbktcytGM">Gameplay</a>
+							<a class="nav-link text-body" href="#section_further_down2">Gameplay</a>
 						</li>
                         <li class="nav-item">
-							<a class="nav-link text-body" href="https://krunkerio.net/contact/">Contact</a>
+							<a class="nav-link text-body" href="#section_further_down3">Contact</a>
 						</li>
 					<form class="d-flex" role="search">
 						<input
@@ -48,13 +50,119 @@
 			</div>
 		</nav>
 	</head>
+	<header>
+		<link rel="stylesheet" href=
+        "/krunker/Krunker/CSS/style.css">
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+	</header>
 	<body>
-		</body>
-		<div class="p-3 mb-2 bg-dark text-white">
-			<a href="#"><img src="https://zupimages.net/up/22/46/3ugj.gif" class=float-right alt="" class="rounded" style="width: 50%; height:auto"/></a>
-		<h2 id="section_further_down">Description</h2></br></br></br></br>
+
+	
+		<div class="p-3 mb-2 bg-dark text-white"></br>
+	
+			<h3 id="section_further_down">----------------------------------------------------------------------------------------------------------------------------------------------------------------------</h3></br></br>
+		<h2>Description</h2></br></br></br></br></br>
+		<a href="#"><img src="https://zupimages.net/up/22/46/3ugj.gif" class="rounded mb-0 float-right img-fluid" alt=""  width: 100%; height:auto"/></a></br></br></br></br>
 		Le but du jeu est de marquer des points en tuant les joueurs ennemis ou en accomplissant des tâches dans différents modes de jeu. Il existe plusieurs modes de jeu, dont Free-For-All (FRA) et Team Deathmatch. 
-		</br></br></br></br></br></br></br></br></br></br></br></br>
+		
+	</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+	<h3 id="section_further_down2">----------------------------------------------------------------------------------------------------------------------------------------------------------------------</h3></br></br>
+		<h2>Gameplay</h2> </br></br></br>
+		<iframe width="760" height="515" class="rounded" src="https://www.youtube.com/embed/bErbktcytGM" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</br></br></br></br></br></br></br></br></br>
+
+	<h3 id="section_further_down3">----------------------------------------------------------------------------------------------------------------------------------------------------------------------</h3></br></br>
+		
+	<div class="container">
+ 
+        <div class="row">
+ 
+            <div class="col-xl-8 offset-xl-2 py-5">
+ 
+                <h2>Contact</h2>
+ 
+                <p class="lead">Pour plus d'informations sur le jeu veuillez nous contacter avec le formulaire ci dessous</p>
+ 
+                    <div class="messages"></div>
+ 
+                    <div class="controls">
+ 
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Nom *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Veuillez entrer votre nom *" required="required" data-error="Nom est obligatoire.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Prénom *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Veuillez entre votre prénom *" required="required" data-error="Prénom est obligatoire.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Veuillez entrer votre email *" required="required" data-error="Un email valid est obligatoire.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_need">Veuillez préciser votre besoin *</label>
+                                    <select id="form_need" name="need" class="form-control" required="required" data-error="Veuillez préciser votre besoin.">
+                                        <option value=""></option>
+                                        <option value="Demande de devis">Demande de partie</option>
+                                        <option value="Demande générale">Demande générale</option>
+                                        <option value="Demander une facture">Demander une facture pour site web</option>
+										<option value="Autre">ludoviiiiiiiic</option>
+                                        <option value="Autre">Autre</option>
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Votre Message *" rows="4" required="required" data-error="Veuillez remplir le champ Message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+								<button class="rounded" onclick="window.location.href = 'https://media.discordapp.net/attachments/1041706100195602534/1042001775781216297/kcorp-kameto-corp.gif';">Envoyer</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-muted">
+                                    <strong>*</strong> Ces champs sont obligatoires.</p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                </form>
+ 
+            </div>
+            <!-- /.8 -->
+ 
+        </div>
+        <!-- /.row-->
+ 
+    </div>
+
+</br></br></br></br></br></br></br></br></br>
+
+	<a href="#" class="btn btn-default bg-warning float-right fixed-bottom">Retour en haut ↑</a>
+	</br></br></br></br></br></br></br></br>
 	</div>
 	</body>
 </html>
