@@ -3,6 +3,17 @@
     color: black; /* couleur du texte quand souris passe dessus*/ 
   }
 
+  #sec-1 {
+    background-color: rgb(63, 63, 63);
+  }
+  #sec-2 {
+    text-align: center;
+    background-color: rgb(63, 63, 63);
+  }
+  #sec-3 {
+    background-color: rgb(63, 63, 63);
+  }
+
   header {
     background-image: url('https://zupimages.net/up/22/46/3gdh.png');
     background-repeat: repeat;
@@ -28,4 +39,22 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(255, 175, 28);
   border-radius: 10px;
   outline: 1px solid rgb(255, 175, 28);
+}
+
+.btn2 {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  display: flex;
+  background: rgb(255, 175, 28);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.icone {
+  width: 50px;
 }
