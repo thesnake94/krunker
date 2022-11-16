@@ -18,6 +18,10 @@
     height: 100px;  
     }
     
+#description{
+  text-align: center;
+}
+
 
 
   #sec-1 {
@@ -42,6 +46,23 @@
     background-size: auto;
     text-align: center;
   }
+
+
+.video-responsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 20%;
+  top: 0;
+  height: 60%;
+  width: 60%;
+  position: absolute;
+}
+
 
 body {
     font-size: large;
@@ -78,4 +99,17 @@ body::-webkit-scrollbar-thumb {
 
 .icone {
   width: 50px;
+}
+
+
+#linkedin{
+  text-align: center;
+}
+
+#krunker {
+  text-align: center;
+}
+
+#github{
+  text-align: center;
 }
