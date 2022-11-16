@@ -3,6 +3,23 @@
     color: black; /* couleur du texte quand souris passe dessus*/ 
   }
 
+  #section_further_down{
+  text-align: center;
+  height: 100px;  
+  }
+
+  #section_further_down2{
+  text-align: center;
+  height: 100px;  
+  }
+
+  #section_further_down3{
+    text-align: center;
+    height: 100px;  
+    }
+    
+
+
   #sec-1 {
     background-color: rgb(63, 63, 63);
   }
