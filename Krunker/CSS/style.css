@@ -41,6 +41,7 @@
 
   header {
     background-image: url('https://zupimages.net/up/22/46/3gdh.png');
+    width: 100%;
     background-repeat: repeat;
     background-position:center;
     background-size: auto;
@@ -63,6 +64,10 @@
   position: absolute;
 }
 
+p{
+  text-indent: 5%;
+  text-align: justify;
+}
 
 body {
     font-size: large;
