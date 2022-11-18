@@ -34,7 +34,12 @@ html{
 #mainmenu{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
- 
+
+#search{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+
 #description{
   text-align: center;
   color: yellow;
