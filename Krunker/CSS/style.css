@@ -12,24 +12,28 @@ html{
   height: 100px;  
   }
 
-  #section_further_down2{
+  #section_further_down3{
   text-align: center;
   height: 100px;  
   }
 
-  #section_further_down3{
+  #section_further_down4{
     text-align: center;
     height: 100px;  
     }
     
-    #section_further_down5{
+#section_further_down2{
       text-align: center;
       height: 100px;  
       }
 
-  #mainmenu{
+
+
+
+
+#mainmenu{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+}
  
 #description{
   text-align: center;
@@ -42,6 +46,19 @@ html{
   color: yellow;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#contact{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+}
+
+#gameplay{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+}
+
+
+
 
 
   #sec-1 {
@@ -136,13 +153,3 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
-
-#contact{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: yellow;
-}
-
-#gameplay{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: yellow;
-}
