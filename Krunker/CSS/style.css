@@ -3,6 +3,10 @@
     color: black; /* couleur du texte quand souris passe dessus*/ 
   }
 
+html{
+  scroll-behavior: smooth;
+}
+
   #section_further_down{
   text-align: center;
   height: 100px;  
@@ -89,6 +93,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn2 {
+  scroll-behavior: smooth;
   height: 46px;
   width: 46px;
   border-radius: 50%;
@@ -108,7 +113,7 @@ body::-webkit-scrollbar-thumb {
 
 
 #linkedin{
-  text-align: center;
+  flex-direction: row ;
 }
 
 #krunker {
