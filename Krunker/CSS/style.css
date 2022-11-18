@@ -22,22 +22,34 @@ html{
     height: 100px;  
     }
     
+    #section_further_down5{
+      text-align: center;
+      height: 100px;  
+      }
+
+  #mainmenu{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+ 
 #description{
   text-align: center;
+  color: yellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 
+#Règles{
+  text-align: center;
+  color: yellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 
   #sec-1 {
     background-color: rgb(63, 63, 63);
   }
 
-
   #sec-2 {
     text-align: center;
-    background-color: rgb(63, 63, 63);
-  }
-  #sec-3 {
     background-color: rgb(63, 63, 63);
   }
 
@@ -122,4 +134,15 @@ body::-webkit-scrollbar-thumb {
 
 #github{
   text-align: center;
+}
+
+
+#contact{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+}
+
+#gameplay{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
 }
