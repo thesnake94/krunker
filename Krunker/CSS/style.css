@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+/*navbar*/
 .navbar a:hover {
     background-color: rgb(121, 240, 42); /* couleur bouttons quand souris passe dessus */
     color: black; /* couleur du texte quand souris passe dessus*/ 
   }
 
+
+/* pour que ça scroll */
 html{
   scroll-behavior: smooth;
 }
 
+
+
+/* images separation au dessus des titres */
   #section_further_down{
   text-align: center;
   height: 100px;  
   }
+
+  #section_further_down2{
+    text-align: center;
+    height: 100px;  
+    }
 
   #section_further_down3{
   text-align: center;
@@ -24,14 +35,9 @@ html{
     height: 100px;  
     }
     
-#section_further_down2{
-      text-align: center;
-      height: 100px;  
-      }
 
 
-
-
+/* police pour tous les titres de la pages etde la navbar */
 
 #mainmenu{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -67,18 +73,18 @@ html{
 
 
 
-
+/* section 'description' et 'gameplay' */
   #sec-1 {
     background-color: rgb(63, 63, 63);
   }
 
-  #sec-2 {
+  #sec-3 {
     text-align: center;
     background-color: rgb(63, 63, 63);
   }
 
   
-
+/*header avec image krunker */
   header {
     background-image: url('https://zupimages.net/up/22/46/3gdh.png');
     width: 100%;
@@ -89,6 +95,8 @@ html{
   }
 
 
+
+/*vidéo youtube */
 .video-responsive{
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -104,16 +112,23 @@ html{
   position: absolute;
 }
 
+
+
+/*textes 'description' et règles et modes de jeu' */
 p{
   text-indent: 5%;
   font-family: 'Oswald', cursive;
   text-align: justify;
 }
 
+
+
 body {
     font-size: large;
 }
 
+
+/*scrollbar */
 body::-webkit-scrollbar {
   width: 1em;
 }
@@ -129,6 +144,9 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid rgb(255, 175, 28);
 }
 
+
+
+/* Bouton retour en haut */
 .btn2 {
   scroll-behavior: smooth;
   height: 46px;
@@ -149,6 +167,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+
+/* footer */
 #linkedin{
   flex-direction: row ;
 }
