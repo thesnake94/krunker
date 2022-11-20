@@ -169,15 +169,29 @@ body::-webkit-scrollbar-thumb {
 
 
 /* footer */
+
+.btn_github{
+  position: relative;
+  top: auto;
+  right: auto;
+}
+
+.btn_linkedin{
+  position: relative;
+  top: auto;
+  right: auto;
+}
+
+
 #linkedin{
-  flex-direction: row ;
+  flex-direction: column ;
 }
 
 #krunker {
-  text-align: center;
+  size-adjust: auto;
 }
 
 #github{
-  text-align: center;
-}
+  size-adjust: auto;
+flex-direction: column-reverse;}
 
