@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 .navbar a:hover {
     background-color: rgb(121, 240, 42); /* couleur bouttons quand souris passe dessus */
     color: black; /* couleur du texte quand souris passe dessus*/ 
@@ -104,6 +106,7 @@ html{
 
 p{
   text-indent: 5%;
+  font-family: 'Oswald', cursive;
   text-align: justify;
 }
 
