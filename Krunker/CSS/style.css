@@ -200,3 +200,8 @@ body::-webkit-scrollbar-thumb {
   size-adjust: auto;
 flex-direction: column-reverse;}
 
+
+/*carousel*/
+#carouselExampleIndicators{
+  width: 50%;
+}
