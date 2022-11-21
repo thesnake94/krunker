@@ -136,6 +136,11 @@ p{
   text-decoration: underline;
 }
 
+h5{
+  font-family: 'Oswald', cursive;
+  text-decoration: underline;
+}
+
 body {
     font-size: large;
 }
@@ -213,3 +218,5 @@ flex-direction: column-reverse;}
 #carouselExampleIndicators{
   width: 50%;
 }
+
+/*map*/
