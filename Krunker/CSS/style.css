@@ -33,7 +33,12 @@ html{
   #section_further_down4{
     text-align: center;
     height: 100px;  
-    }
+  }
+
+  #section_further_down5{
+    text-align: center;
+    height: 100px;  
+   }
     
 
 
@@ -126,7 +131,10 @@ p{
   text-align: justify;
 }
 
-
+#dev{
+  font-family: 'Oswald', cursive;
+  text-decoration: underline;
+}
 
 body {
     font-size: large;
