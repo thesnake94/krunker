@@ -80,6 +80,12 @@ html{
   color: black;
 }
 
+#btn_contact{
+  display: block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+
 
 
 
@@ -124,7 +130,7 @@ html{
 
 
 
-/*textes 'description' et règles et modes de jeu' */
+/*textes 'description', 'règles et modes de jeu' et 'développeurs' */
 p{
   text-indent: 5%;
   font-family: 'Oswald', cursive;
@@ -140,6 +146,16 @@ h5{
   font-family: 'Oswald', cursive;
   text-decoration: underline;
 }
+
+h6{
+  font-family: 'Oswald', cursive;
+  text-align: center;
+}
+
+.container3{
+  column-count: 2;
+}
+
 
 body {
     font-size: large;
