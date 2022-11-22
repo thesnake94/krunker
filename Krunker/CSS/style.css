@@ -102,6 +102,12 @@ html{
   color: black;
 }
 
+#logo_dev{
+  display: flex;
+  text-align: center;
+}
+
+
 
 
 
