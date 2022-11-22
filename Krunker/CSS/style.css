@@ -273,3 +273,9 @@ flex-direction: column-reverse;}
   width:100%;
   position:absolute;
  }
+
+
+ /*bloquer les clics des element avec la class 'avoid-class'*/
+ .avoid-clicks {
+  pointer-events: none;
+}
