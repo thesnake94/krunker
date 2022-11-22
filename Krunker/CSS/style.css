@@ -71,16 +71,11 @@ html{
   color: yellow;
 }
 
-.lead{
-  color: black;
-}
 
 #contact2{
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: yellow;
-  border-color: black;
-  border: 2px;
 }
 
 #gameplay{
