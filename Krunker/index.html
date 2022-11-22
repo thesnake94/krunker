@@ -235,6 +235,7 @@ Veuillez nous contactez via notre formulaire de contact juste au dessus ou en cl
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
+
            <!--formulaire de² contact-->    
 	<div class="container">
  
@@ -246,10 +247,8 @@ Veuillez nous contactez via notre formulaire de contact juste au dessus ou en cl
  
                 <p2 class="lead">Pour plus d'informations sur le jeu veuillez nous contacter avec le formulaire ci dessous</p2>
  
-                    <div class="messages"></div>
- 
                     <div class="controls">
- 
+                        <form action="/page-traitement-donnees" method="post">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -299,7 +298,7 @@ Veuillez nous contactez via notre formulaire de contact juste au dessus ou en cl
                                 </div>
                             </div>
                             <div class="col-md-12">
-								<button class="rounded" onclick="window.location.href = 'https://media.discordapp.net/attachments/1041706100195602534/1042001775781216297/kcorp-kameto-corp.gif';">Envoyer</button>
+								<button class="rounded" >Envoyer</button>
                             </div>
                         </div>
                         <div class="row">
@@ -319,7 +318,7 @@ Veuillez nous contactez via notre formulaire de contact juste au dessus ou en cl
     </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://media.discordapp.net/attachments/1041706100195602534/1042001775781216297/kcorp-kameto-corp.gif';" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -411,7 +410,7 @@ Veuillez nous contactez via notre formulaire de contact juste au dessus ou en cl
         <!-- Copyright -->
       </footer>
 
-
+<script src="/Krunker/JS/main.js"></script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </html>
