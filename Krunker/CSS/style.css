@@ -220,6 +220,13 @@ body::-webkit-scrollbar-thumb {
 
 
 /* footer */
+footer{
+  background-color: rgb(255, 175, 28);
+}
+
+#copyright{
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
 .btn_github{
   position: relative;
