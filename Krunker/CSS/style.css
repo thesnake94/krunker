@@ -2,7 +2,7 @@
 
 /*navbar*/
 .navbar a:hover {
-    background-color: rgb(121, 240, 42); /* couleur bouttons quand souris passe dessus */
+    background-color: rgb(255, 175, 28); /* couleur bouttons quand souris passe dessus */
     color: black; /* couleur du texte quand souris passe dessus*/ 
   }
 
