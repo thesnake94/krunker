@@ -1,0 +1,23 @@
+body{
+    background-color: brown;
+    background-image: url(https://www.zupimages.net/up/22/47/jqar.gif);
+    width: 100%;
+    background-repeat: repeat;
+    background-position:center;
+    background-size: auto;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(255, 175, 28); /* couleur bouttons quand souris passe dessus */
+    color: black; /* couleur du texte quand souris passe dessus*/ 
+  }
+
+  h1{
+    text-align: center;
+    
+  }
+
+  #mainmenu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }

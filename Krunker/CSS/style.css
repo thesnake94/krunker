@@ -42,7 +42,7 @@ html{
     
 
 
-/* police pour tous les titres de la pages etde la navbar */
+/* police pour tous les titres de la pages et de la navbar */
 
 #mainmenu{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -117,6 +117,11 @@ html{
   }
 
   #sec-3 {
+    text-align: center;
+    background-color: rgb(63, 63, 63);
+  }
+
+  #sec-5 {
     text-align: center;
     background-color: rgb(63, 63, 63);
   }
@@ -284,4 +289,11 @@ flex-direction: column-reverse;}
  /*bloquer les clics des element avec la class 'avoid-class'*/
  .avoid-clicks {
   pointer-events: none;
+}
+
+
+
+/* body ester egg*/
+#egg{
+  background-color: blue;
 }
