@@ -21,3 +21,6 @@ body{
   #mainmenu{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
+ h1{
+padding: 100%;
+}
